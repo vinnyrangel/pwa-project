@@ -1,11 +1,12 @@
 {
-  "name": "your-first-pwapp",
+  "name": "dm-musical",
   "version": "2.0.0",
-  "description": "Codelab for Your First PWAPP",
+  "description": "Meu app PWA - DM Musical",
   "homepage": "https://codelabs.developers.google.com/codelabs/your-first-pwapp/",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "gulp"
   },
   "dependencies": {
     "express": "^4.16.4",
@@ -17,15 +18,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/googlecodelabs/your-first-pwapp.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/googlecodelabs/your-first-pwapp/issues"
+    "url": ""
   },
   "license": "Apache2",
   "keywords": [
     "progressive-web-app",
     "pwa",
     "installable web app"
-  ]
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
